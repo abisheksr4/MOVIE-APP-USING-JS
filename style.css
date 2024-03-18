@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: rgb(17,17,17);
+    font-family: 'poppins',sans-serif;
+}
+.search{
+   width: 600px;
+   margin: 50px auto;
+   display: flex;
+}
+.ip-search{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+ip-search::foucs{
+    outline: none;
+    border: none;
+}
+.btn{
+    width: 22%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.container{
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.content{
+    color:rgba(255, 255, 255, 0.903)
+}
+.poster{
+    width: 240px;
+}
+.content p{
+    font-weight: bolder;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    padding: 4px;
+}
+span{
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.811);
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
+.title{
+    margin-top: 0;
+}
+
+@media only screen and (max-width:603px){
+
+    .search{
+        width: 500px;
+        margin: 50px auto;
+        display: flex;
+     }
+     .ip-search{
+         width: 80%;
+         box-sizing: border-box;
+         padding: 15px;
+         border: none;
+         background-color: white;
+         color: black;
+         font-size: 16px;
+     }
+     .container{
+        width: 500px;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    }

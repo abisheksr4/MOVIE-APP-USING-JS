@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Application</title>
+</head>
+<body>
+    <div class="search">
+        <input type="text" id="moviename" class="ip-search" placeholder="Search to find the details of a Movie...">
+        <button class="btn" onclick="searchmovie()">search movie</button>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h2 id="title">The avengers</h2>
+            <p>Directors: <span id="director"></span></p>
+            <p>Actors: <span id="actors"></span></p>
+            <p>Box office collections: <span id="collection"></span></p>
+            <p>Description: <span id="desc"></span></p>
+            <p>Awards: <span id="awards"></span></p>
+            <p>Writer: <span id="writer"></span></p>
+            <p>IMDB Ratings: <span id="ratings"></span></p>
+            <p>Genre: <span id="genre"></span></p>
+            <p>Released on: <span id="date"></span></p>
+        </div>
+        <img id="poster" class="poster" src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
